@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./global.css" />
+    <title>ToDoList</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="todo-box">
+        <h1>To Do List</h1>
+        <div class="input-box">
+          <input placeholder="입력하세요." />
+          <button>제출</button>
+        </div>
+        <div>
+          <ul class="todo-list">
+            <li class="todo-item">
+              <div>영화보기</div>
+              <div class="todo-btns">
+                <button>완료</button>
+                <button>삭제</button>
+              </div>
+            </li>
+            <li class="todo-item">
+              <div>구스구스덕 하기</div>
+              <div class="todo-btns">
+                <button>완료</button>
+                <button>삭제</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
